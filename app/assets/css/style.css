@@ -1,0 +1,23 @@
+/*RESET*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*BODY*/
+body {
+
+}
+
+/*NAVIGATION*/
+nav {
+	background-color: rgba(0, 0, 0, .60);
+}
+
+h2 {
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	height: 30px;
+	padding: 10px;
+}
