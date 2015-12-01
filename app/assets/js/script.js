@@ -4,6 +4,8 @@
   		url: 'https://galvanize-eats-api.herokuapp.com/menu',
   		type: 'GET',
   		dataType: 'json'
+  	}).done(function(data) {
+  		console.log(data)
   	})
 
 	$('#deliver').on('click', function(){
