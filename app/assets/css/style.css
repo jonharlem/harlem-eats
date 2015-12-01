@@ -7,6 +7,7 @@
 /*BODY*/
 body {
 	font-family: Helvetica, sans-serif;
+	height: 100%;
 }
 
 /*NAVIGATION*/
@@ -99,10 +100,12 @@ h3 {
 /*FOOTER*/
 footer {
 	background-color: black;
+	bottom: 0px;
 	height: 50px;
 	margin-bottom: 0px;
-	position: relative;
+	position: fixed;
 	text-align: center;
+	width: 100%;
 }
 
 h4 {
@@ -117,7 +120,6 @@ h4 {
 }
 
 #formWrapper {
-	background-color: grey;
 	height: 600px;
 	width: 650px;
 	margin-top: 75px;
