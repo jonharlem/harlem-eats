@@ -2,7 +2,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	/*width: 1500px;*/
 }
 
 /*BODY*/
@@ -41,7 +40,7 @@ img {
 }
 
 
-button {
+#order{
 	background-color: rgba(86, 167, 113, 1);
 	border: none;
 	color: white;
@@ -61,7 +60,7 @@ section {
 
 .wrapper {
 	width: 100%;
-	/*text-align: center;*/
+	margin: 30px;
 }
 
 h3 {
@@ -91,15 +90,12 @@ h3 {
 	padding-right: 2px;
 }
 
-
-
 .thumbnails {
 	display: inline-block;
 	margin-left: 150px;
 	margin-right: 15ß0px;
 	width: 250px;
 }
-
 /*FOOTER*/
 footer {
 	background-color: black;
@@ -114,3 +110,87 @@ h4 {
 	font-weight: 100;
 	padding: 10px;
 }
+
+/*_________________ORDER FORM_______________________*/
+#orderBody {
+	background: RGBA(241, 179, 40, 1)
+}
+
+#formWrapper {
+	background-color: grey;
+	height: 600px;
+	width: 650px;
+	margin-top: 75px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+#rightOrder {
+	background-color: white;
+	float: right;
+	height: 500px;
+	padding: 20px;
+	width: 200px;
+}
+
+#leftOrder {
+	display: inline-block;
+}
+
+#menu {
+	background-color: white;
+	width: 400px;
+	height: 200px;
+	overflow: scroll;
+}
+
+
+/*FORM*/
+
+
+label {
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+#quantity{
+	width: 40px;
+	margin-right: 10px;
+}
+
+input {
+	font-size: 20px;
+	height: 40px;
+	width: 400px;
+}
+
+
+
+#addItem {
+    background-color: RGBA(88, 114, 168, 1);
+    border: none;
+    border-bottom: black;
+    box-shadow: 1px 1px 1px #000;
+	color: white;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;  
+}
+
+#deliver {
+	background-color: RGBA(86, 167, 113, 1);
+    border: none;
+    border-bottom: black;
+    box-shadow: 1px 1px 1px #000;
+	color: white;
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 10px;
+    width: 400px;  
+}
+
